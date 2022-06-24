@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>convert string in oppsite case</title>
+</head>
+<body>
+    <script>
+        var a,b;
+        a=["Amar" ,"Yuvraj","Deepak", "Ritik","Swapnil" ,"&","Divyanshi"];
+        // You can use also this Option
+       // a=["We are students of React JS"]
+        for (i=0; i<a.length; i++)
+        {
+            k=a[i];
+            for(j=k.length-1; j>=0; j--) 
+            document.write(k[j]); 
+            document.write(" ");         
+        }
+        document.write("<br>");
+        document.write("<br>");
+        document.write("String= "+a);
+        
+    </script>
+</body>
+</html>
